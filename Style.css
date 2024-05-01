@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css? family=Roboto');
+
+body{
+    font-family: 'roboto', sans sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+i{
+    margin-right: 10px;
+}
+
+input:focus,
+button:focus,
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control:disabled .form-control[readonly]{
+    background-color: #fff;
+}
+.table tr,
+.table tr td{
+    vertical-align: middle ;
+}
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+#my table .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus,
+.cart-qty-mimus{
+    width: 38px;
+    height: 38px;
+    background-color: blueviolet;
+    border: 1px; border: #ced4da;
+    border-radius:  .25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-mimus:hover{
+    background-color: #5161ce;
+    color: #fff;
+}
+.img-prdct{
+    width: 50px;
+    height: 50px;
+    background-color: #5161ce;
+    border-radius: 4px;
+}
+.img-prdct img{
+    width: 100px;
+}
